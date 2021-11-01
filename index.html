@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome Email</title>
+
+<style>
+
+
+  @media only screen and (max-width: 960px) {
+    .main-container{
+      width: 600px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .main-container{
+      width: 100%;
+    }
+    .header-container,
+    .description-container{
+      width: 100%;
+    } 
+    .description-container{
+      margin-top: 20px;
+    }
+    .header-title{
+      margin-bottom: 30px !important;
+      font-size: 18px;
+    }
+    .header-button{
+      margin-top: 5px !important;
+      padding: 7px 13px 8px 23px !important;
+      font-size: 15px !important;
+    }
+    .description-congrats{
+      padding-top: 35px !important;
+      font-size: 20px !important;
+    }
+    .description-goal{
+      font-size: 20px !important;
+    }
+    .icons-title{
+      font-size: 20px !important;
+    }
+    .icons-container{
+      width: 90%;
+      padding: 0 10px 0 10px !important;
+    }
+    .footer-container{
+      width: 90%;
+      padding: 0 10px 0 10px !important;
+    }
+
+  }
+</style>
+</head>
+
+
+<body>
+
+   <!-- start of HTML email -->
+   <table class="body-table" width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+      <td>
+        <!-- start of container: This container holds all the rows from the mock up -->
+        <table class="main-container" width="600" cellspacing="0" cellpadding="0" border="0" align="center" style="background-color: #f0f0f0;">
+
+            <!-- header: logo - title - button -->
+            <tr>
+              <td>
+                <table class="header-container" width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+                    <!-- logo -->
+                    <tr align=center>
+                      <td>
+                        <a href="https://www.togetherwell.org/" target="_blank">
+                          <img 
+                            class="header-logo" src="img/logo-1.png" width="100"   
+                            height="auto" alt="company-logo"
+                            style="margin-top: 30px;"
+                          >
+                        </a>
+                      </td>
+                    </tr>
+
+                    <!-- header -->
+                    <tr align=center>
+                      <td>
+                          <h1 class="header-title" style="margin-bottom: 43px; color: gray; ">
+                            Happy To Have You Here !
+                          </h1>
+                      </td>
+                    </tr>
+
+                    <!-- button -->
+                    <tr align=center style="margin: 30px;">
+                      <td>
+                          <a class="header-button" href="https://www.togetherwell.org/about/mission"
+                            target="_blank" 
+                            style=" padding: 11px 25px; font-size: 20px; text-decoration: none; color: white; background:#1574a8; border-radius: 30px;">
+                            Get to know us
+                          </a>
+                      </td>
+                    </tr>
+  
+                </table>
+            </tr>
+
+            <!-- body: bg-image - puzzle image - description paragraph -->
+            <tr>
+              <td>
+                <table class="description-container" width="100" cellspacing="0" cellpadding="0" border="0" align="center" background="rectangle.png" style="  background-image: url('/img/rectangle.png'); object-fit: cover; background-size: cover; background-repeat: no-repeat; width: 90%; height:auto; padding-bottom: 3rem;">
+                      <!-- image: white background -->
+                      <tr align=center>
+                        <td>
+                          <img 
+                            src="img/group-img-3-no-bg.png" width="100%" height="auto" alt="puzzle-image"
+                            class="description-puzzle-image"
+                            style="margin: 35px 0 0 28px;"  
+                          >
+                        </td>
+                      </tr>
+      
+                      <!-- description: congratulations -->
+                      <tr align=center>
+                        <td>
+                          <h1 class="description-congrats" style="margin: -60px 30px 0 30px; font-weight: normal; font-size: 26px; ">
+                            Congratulations on becoming an active member of TogetherWell.
+                          </h1>
+                        </td> 
+                      </tr>
+      
+                      <!-- description: our goal-->
+                      <tr align=center>
+                        <td>
+                          <h1 class="description-goal" style="margin: 24px 30px 0 30px; font-weight: normal; font-size: 26px; ">
+                            Our goal is to help improve the well-being of families and communities in need by making critical information and support more accessible and affordable
+                          </h1> 
+                        </td>
+                      </tr>
+
+                </table>
+              </td>
+            </tr>
+
+            <!-- media icons table -->
+            <tr>
+              <td>
+                <!-- title & line divider table -->
+                <table class="icons-title-container" width="90%" cellspacing="0" cellpadding="0" border="0" align="center" style=" padding: 0px 20px 20px 20px; background-color: #FFFFFF;">
+                  
+                    <tr align=center>
+                      <td>
+                        <hr class="icons-divider" style="margin: -10px 0px;  width: 80%; border: 2px solid #1574a8;" 
+                        >
+                        <h1 class="icons-title" style= "margin: 60px 30px 10px 30px; font-weight: normal; font-size: 26px; ">
+                          We love staying connected:
+                        </h1>
+                      </td>
+                    </tr>
+
+                </table>
+    
+                
+                  <!--  icons table table -->
+                <table class="icons-container" width="90%" cellspacing="0" cellpadding="0" border="0" align="center" style=" padding: 0px 80px 20px 80px; background-color: #FFFFFF;">
+                
+                     <tr align=center>
+                      
+                        <td>
+                          <a href="https://www.linkedin.com/" target="_blank">
+                            <img class="icons-linkedin" src="img/linkedin.png" width="25" height="auto" alt="linkedin-icon" style="line-height: 5px; ">
+                          </a>
+                        </td>
+
+                        <td>
+                          <a href="https://www.instagram.com/" target="_blank">
+                            <img class="icons-instagram" src="img/instagram.png" width="25" height="auto"  alt="instagram-icon">
+                          </a>
+                        </td>
+
+                        <td>
+                          <a href="https://www.facebook.com/" target="_blank">
+                            <img class="icons-facebook" src="img/facebook.png" width="25" height="auto"  alt="facebook-icon">
+                          </a>
+                        </td>
+
+                        <td>
+                          <a href="https://www.youtube.com/" target="_blank">
+                            <img class="icons-youtube" src="img/youtube.png" width="33" height="auto"  alt="youtube-icon"  style="margin: -4px;">
+                          </a>
+                        </td>
+
+                        <td>
+                          <a href="https://www.twitter.com/" target="_blank">
+                            <img class="icons-twitter" src="img/twitter.png" width="5" height="auto"  alt="twitter-icon">
+                          </a>
+                        </td>
+
+                        <td>
+                          <a href="https://www.tiktok.com/login/" target="_blank">
+                            <img class="icons-tiktok" src="img/tiktok.png" width="25" height="auto"  alt="tiktok-icon">
+                          </a>
+                        </td>
+
+                    </tr> 
+
+                </table>
+
+              </td>
+            </tr>
+
+            <!-- footer -->
+            <tr>
+              <td>
+                <table class="footer-container" width="90%" cellspacing="0" cellpadding="0" border="0" align="center" style="margin-bottom: 30px; padding: 0px 20px 20px 20px; background-color: #FFFFFF; ">
+                    <!-- description: login/unsubscribe -->
+                    <tr>
+                      <td align=center>
+                        <h1 style="padding: 0px 20px 0 20px; font-size: 12px; font-weight: normal;" >
+                          <a href="https://www.togetherwell.org/" target="_blank" style="color: #1574a8; font-weight: bold; text-decoration: underline; font-style: italic;">
+                            Login
+                          </a>
+                            to manage your email preferences or 
+                          <a href="#" target="_blank" style="color: #1574a8; font-weight: bold; text-decoration: underline; font-style: italic;">
+                            unsubscribe
+                          </a>
+                            if you no longer wish to receive emails from us. If you have  any questions visit our FAQs.
+                        </h1>
+                      </td>
+                    </tr>
+
+                    <!-- description: registration -->
+                    <tr>
+                      <td align=center>
+                        <h1 style="padding: 0px 20px 0 20px; font-size: 12px; font-weight: normal;">
+                          You have received this email as a registered user of TogetherWell.com. | 2871 Birdsall Ave Oakland | CA-94619 | ©concierge©TogetherWell.org.
+                        </h1>
+                      </td>
+                    </tr>
+                    
+                    <!-- description: rights reserved --> 
+                    <tr>
+                      <td align=center>
+                        <h1 style="  font-size: 12px; font-weight: normal;">
+                          @2021 TogetherWell.org All rights reserved.
+                        </h1>
+                      </td>
+                    </tr>
+                </table>
+              </td>
+            </tr>
+
+        </table>
+        <!-- end of container: This container holds all the rows from the mock up -->
+      </td>
+    </tr>
+  </table>
+  
+</body>
+</html>
