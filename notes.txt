@@ -5,3 +5,8 @@
       width: 960px;
     }
   } */
+
+
+  background image table
+
+   <table class="description-container" width="100" cellspacing="0" cellpadding="0" border="0" align="center" background="rectangle.png" style="  background-image: url('https://github.com/RBRuthie/Welcome_Email/blob/main/img/rectangle.png?raw=true'); object-fit: cover; background-size: cover; background-repeat: no-repeat; width: 90%; height:auto; padding-bottom: 3rem;">
